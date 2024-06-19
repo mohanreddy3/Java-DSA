@@ -1,0 +1,113 @@
+	class CMD{
+
+	public static void main(String[] args){
+		System.out.println("Hello All, This is an example of CMD line args");
+		for(String s : args){
+			System.out.print( s +"\t");
+		}
+	}
+	}
+toString()
+String str="any string";
+String str1=new String("any string");
+wrapper classes--
+
+Byte
+Short
+Integer
+Long
+Float
+Double
+Character
+Boolean
+
+
+int i=420;
+Integer j=i; auto boxing
+int k=j; auto unboxing
+JDBC API-
+Driver-
+type 1- jdbc-odbc driver
+type-2- native driver
+type-3 networked driver
+type-4 pure java driver
+interfaces avl in jdbc-
+Connection
+Statement
+PreparedStatement
+CallableStatement
+ResultSet
+ResultSetMetaData
+classes avl in jdbc-
+DriverManager
+Blob
+Clob
+
+5 steps to implement jdbc in java program-
+1. register driver class
+
+Class.forName(String driverpath) throws ClassNotFoundException
+try{
+Class.forName("path of driver class");
+}
+catch(ClassNotFoundException c){}
+2. establish connection
+java.sql pkg
+DriverManager
+getConnection(String url): Connection throws SQLException
+getConnection(String url, Properties prop)
+getConnection(String url, String uname, String pwd)
+try{
+Connection con= DriverManager.getConnection()
+}
+catch(SQLException s){}
+3. create/prepare statement
+DDL- create alter drop 		boolean
+dml- insert update delete	int
+dql- select			table of value
+java.sql pkg--
+Statement		static sql query
+PreparedStatement	dynamic sql query
+CallableStatement	stored programs
+
+4. execute and manage result
+boolean execute()
+int executeUpdate()
+ResultSet executeQuery()
+
+5. close the connection
+close()
+
+List l=new ArrayList()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
