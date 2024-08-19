@@ -8,6 +8,7 @@ public class p1 {
         Scanner ip = new Scanner(System.in);
         int num = ip.nextInt();
         System.out.println(luckyNumber(num));
+        ip.close();
     } 
     //function
     public static int luckyNumber(int num ){
