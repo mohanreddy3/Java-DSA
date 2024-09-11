@@ -8,7 +8,7 @@ public class accenturepbm1 {
     public static void main(String[] args) {
         Scanner ip = new Scanner(System.in);
         System.out.println("Enter the index: ");
-        int num = ip.nextInt();
+        // int num = ip.nextInt();
         ArrayList<String>  list = new ArrayList<>(2);
         //input
         System.out.println("Enter the string: ");
@@ -19,6 +19,7 @@ public class accenturepbm1 {
         for(int i=0; i<1; i++){
             System.out.print(list.get(i));
         }
+        ip.close();
         // System.out.print(list);
         // for(int i=0; i<1; i++){
         //     list.set(num, list.get(i));
