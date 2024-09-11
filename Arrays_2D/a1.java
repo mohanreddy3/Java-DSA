@@ -11,7 +11,7 @@ public class a1 {
         int rows = ip.nextInt();
         System.out.print("Enter the columns:");
         int cols = ip.nextInt();
-        int array2 [][] = new int [rows][cols];
+        int[][] array2= new int [rows][cols];
         // input 
         //rows (outer loop)
         System.out.println("Enter the values in 2D array:");
