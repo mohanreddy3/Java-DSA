@@ -16,7 +16,6 @@ public class L2 {
                 
             } 
         }
-       
         return maxSum;
     }
     //main
