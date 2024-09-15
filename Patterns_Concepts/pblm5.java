@@ -1,4 +1,4 @@
-//Inverted Half Pyramid
+//Inverted Half Pyramid on the right side
 package Patterns_Concepts;
 import java.util.*;
 public class pblm5 {
