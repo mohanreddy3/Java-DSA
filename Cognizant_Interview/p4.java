@@ -12,6 +12,7 @@ public class p4 {
             }
             System.out.println(" ");
         }
+        ip.close();
     }
     
 }
