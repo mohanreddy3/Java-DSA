@@ -23,6 +23,7 @@ public class polyMorphism {
         ep1.name = "Mohan";
         ep1.age = 20;
         ep1.printInfo( ep1.name, ep1.age);
+        ep1.printInfo(ep1.age);
 
         
     }

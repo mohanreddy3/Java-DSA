@@ -20,7 +20,9 @@ public class h4 {
         for( int i=0; i<arr2.length; i++){
             set.add(arr2[i]);
         }
+        System.out.println(set);//unique elements
         return set.size();
+        
     }
     //main
     public static void main(String[] args){
