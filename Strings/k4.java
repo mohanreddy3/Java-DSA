@@ -5,7 +5,7 @@
 package Strings;
 
 public class k4 {
-    //method
+    //method 1 (empty string and original stirng)
     static void skip(String ans ,String org ){
         //base condition
         if(org.isEmpty()){
@@ -21,9 +21,23 @@ public class k4 {
         }
 
     }
+    //method 2(only Original string is passsed as arguments).
+    static String skip2(String org){
+        if(org.isEmpty()){
+            return "";
+        }
+        char ch = org.charAt(0);
+        if( ch =='a'){
+            return skip2(org.substring(1));
+        }
+        else{
+            return ch + skip2(org.substring(1));
+        }
+    }
     //main
     public static void main(String[] args) {
         skip("","abbccda");
+        System.out.println(skip2("aabbcadefa"));
         
     }
     
