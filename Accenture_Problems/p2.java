@@ -1,4 +1,4 @@
-/*
+/* QUES 2:
  * Problem Description :
 The Binary number system only uses two digits, 0 and 1 and number system can be called binary string. 
 You are required to implement the following function:

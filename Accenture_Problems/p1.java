@@ -1,4 +1,4 @@
-/*
+/* QUES 1:  Rat Count House
  * Problem Description :
 The function accepts two positive integers ‘r’ and ‘unit’ and a positive integer array ‘arr’ of size ‘n’ as its argument 
 ‘r’ represents the number of rats present in an area, ‘unit’ is the amount of food each rat consumes and each ith element of array ‘arr’ represents the amount of food 
