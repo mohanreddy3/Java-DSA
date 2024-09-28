@@ -34,7 +34,7 @@ public class p3 {
         if(str.length() < 4){
             return 0;
         }
-        if(str.charAt(0) >= '0' && str.charAt(0) <= '9'){
+        if(str.charAt(0) >= '0' && str.charAt(0) <= '9'){ //checking 0 to 9.
             return 0;
         }
         //conditions
@@ -44,7 +44,7 @@ public class p3 {
             if(str.charAt(i) == '/' || str.charAt(i) == ' '){
                 return 0;
             }
-            if(str.charAt(i) >= 'A' && str.charAt(i) <= 'Z'){
+            if(str.charAt(i) >= 'A' && str.charAt(i) <= 'Z'){ //checking from A to Z
                 cap++;
             }
             if(str.charAt(i) >= '0' && str.charAt(i) <='9'){

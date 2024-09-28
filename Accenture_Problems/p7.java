@@ -44,12 +44,42 @@ Sample Output
 
 -21
  */
-
-
-
-
 package Accenture_Problems;
 
+import java.util.Scanner;
+
 public class p7 {
+    public static void main(String[] args) {
+        Scanner ip = new Scanner(System.in);
+        System.out.println("Sum:");
+        int sum = ip.nextInt();
+        System.out.println("Size:");
+        int size = ip.nextInt();
+        int[] arr = new int[size];
+        System.out.println("Enter the elements:");
+        for(int i=0; i<size; i++){
+            arr[i] = ip.nextInt();
+        }
+        int min = Integer.MAX_VALUE;
+        int secMin = Integer.MAX_VALUE;
+        for(int i=0; i<size; i++){
+            if(min > arr[i]){
+                secMin = min;
+                min = arr[i];
+            }
+            else if( arr[i] < secMin && arr[i] != secMin){
+                 secMin = arr[i];
+            }
+            
+        }
+        System.out.println("Smallest: "+min);
+        System.out.println("Second Smallest: "+secMin);
+        if(min+secMin <= sum){
+            System.out.println("Product of the pair is: " + min*secMin);
+        }
+        ip.close();
+
+        
+    }
     
 }

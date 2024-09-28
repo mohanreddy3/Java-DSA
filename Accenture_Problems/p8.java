@@ -1,4 +1,5 @@
-/*
+/* lecture 1 399-546
+548-684 lec 2
  * N-base notation is a system for writing numbers that uses only n different symbols, 
  * This symbols are the first n symbols from the given notation list(Including the symbol for o) 
  * Decimal to n base notation are (0:0, 1:1, 2:2, 3:3, 4:4, 5:5, 6:6, 7:7, 8:8, 9:9, 10:A,11:B and so on upto 35:Z)

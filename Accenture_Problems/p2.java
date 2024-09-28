@@ -48,7 +48,7 @@ public class p2 {
         int result = str.charAt(0);
         for(int i=1; i<str.length(); i+=2){
             char operator = str.charAt(i); // A,B,C -> AND,OR,XOR
-            int nextDigit = str.charAt(i+1) - '0';
+            int nextDigit = str.charAt(i+1) - '0'; // character to String conversion
             //switch cases
             switch(operator){
                 case 'A':
