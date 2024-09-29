@@ -1,38 +1,45 @@
 //Rotate array by K elements - Block Swap Algorithm
 package TCS_NQT.Arrays;
-
 import java.util.Arrays;
 import java.util.Scanner;
 
 public class a8 {
     //method
-    static void rotateArray(int[] arr , int k){
-        int n= arr.length;
-        int[] ans = new int[n];
-        for(int i=1; i<n-k; i++){
-            ans[i] = arr[n-k+i];
+   static void reverseArray(int[] arr, int start, int end){
+        while(start<=end){
+            int temp = arr[start];
+            arr[start] = arr[end];
+            arr[end] = temp;
+            start++;
+            end--;
         }
-        for(int j=n-k; j<n; j++){
-            ans[j] = arr[n-j-1];
-        }
-        System.out.println(Arrays.toString(ans));
     }
 
+    //method 2
+    static void leftRotate(int[] arr, int n, int d){
+        // step-1 
+        d = d % n; // convert all d values to < n rotations.
+        //step -2
+        reverseArray(arr, 0, d-1); // reverse from  0 to 3 (let d=3) -> 1st part
+        //step -3
+        reverseArray(arr, d, n-1); // reverse from 3 to 6 (let n=7) -> 2nd part
+        //step -3
+        reverseArray(arr, 0, n-1); //reverse from 0 to 6 ->both parts
+    }
 
     //main
     public static void main(String[] args) {
         Scanner ip = new Scanner(System.in);
-        System.out.println("Enter the  array size: ");
-        int size = ip.nextInt();
-        int[] arr = new int[size];
-        //input
-        System.out.print("Enter the elements in the array: ");
-        for(int i=0; i<size; i++){
-            arr[i] = ip.nextInt();
-        }
-        System.out.println("Enter the Kth value: ");
-        int k = ip.nextInt();
-        rotateArray(arr, k);
+        int [] arr = {1,2,3,4,5,6,7};
+        int n = arr.length;
+        System.out.println("Enter the Dth value: ");
+        int d = ip.nextInt();
+        System.out.println("Before Rotation: ");
+        System.out.println(Arrays.toString(arr));
+        leftRotate(arr, n , d);
+        System.out.println("After rotation:");
+        System.out.println(Arrays.toString(arr));
+
         ip.close();
 
 
