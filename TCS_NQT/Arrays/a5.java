@@ -23,6 +23,8 @@ public class a5 {
         for(HashMap.Entry<Integer,Integer> entry : freqMap.entrySet()){
             System.out.println(entry.getKey() + "|" + entry.getValue());
         }
+        //or you can do this too..
+        System.out.println(freqMap);
         
     }
     //main
