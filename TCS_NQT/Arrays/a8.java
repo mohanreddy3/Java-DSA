@@ -1,4 +1,4 @@
-//Rotate array by K elements - Block Swap Algorithm
+//Rotate array by K elements - Block Swap Algorithm (Striver)
 package TCS_NQT.Arrays;
 import java.util.Arrays;
 import java.util.Scanner;
