@@ -48,10 +48,10 @@ public class p6 {
         if(arr.length == 0 || arr.length <= 3){
             return 0;
         }
-        int largest=Integer.MIN_VALUE; //Second Largest in even position
-        int secondlargest = Integer.MIN_VALUE;
-        int smallest = Integer.MAX_VALUE;
-        int secondSmallest=Integer.MAX_VALUE; //Second Smallest in Odd position
+        // int largest=Integer.MIN_VALUE; //Second Largest in even position
+        // int secondlargest = Integer.MIN_VALUE;
+        // int smallest = Integer.MAX_VALUE;
+        // int secondSmallest=Integer.MAX_VALUE; //Second Smallest in Odd position
         for(int i=0; i<arr.length; i++){
             if(i%2 ==0){
             
