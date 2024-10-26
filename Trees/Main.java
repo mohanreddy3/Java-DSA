@@ -5,7 +5,7 @@ public class Main {
         Scanner ip = new Scanner(System.in);
         BinaryTree tree = new BinaryTree();
         tree.populate(ip);
-        tree.display();
+        tree.displayPretty();
 
     }
     

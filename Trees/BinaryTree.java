@@ -66,6 +66,28 @@ import java.util.*;
             System.out.println(indent + node.value);
             display(node.left ,indent + "\t");
             display(node.right , indent + "\t");
+        }
+        
+        // For printing Pretty
+        public void displayPretty(){
+            displayPretty(root , 0);
+        }
+        private void  displayPretty(Node node, int level){
+            if(node == null){
+                return;
+            }
+            displayPretty(node.right, level+1);
+            if(level != 0){
+                for(int i=0; i<level-1; i++){
+                    System.out.print("|\t\t");
+                }
+                System.out.println("|------>" + node.value);
+            }
+            else{
+                System.out.println(node.value);
+            }
+            displayPretty(node.left, level+1);
 
-        }    
+        }
+
 }
