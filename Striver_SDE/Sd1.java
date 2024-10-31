@@ -34,11 +34,11 @@ public class Sd1 {
                 mid++;
             }
             //if value is 1 -> increment mid.
-            if(arr1.get(mid)== 1){
+           else if(arr1.get(mid)== 1){
                 mid++;
             }
             //if value is 2 -> decrement high.
-            if(arr1.get(mid)==2){
+            else{
                 //swap mid & high
                 int temp = arr1.get(mid);
                 arr1.set(mid, arr1.get(high));
