@@ -29,6 +29,7 @@ public class Sd2 {
         //if the index is -1 -> greatest permutation
         if(index == -1){
             Collections.reverse(list);
+            return list;
         }
         // find  smallest num which is greater than the value at index. & swap it
         for(int i=n-1; i >index; i--){
