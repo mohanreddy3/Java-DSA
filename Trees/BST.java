@@ -34,6 +34,10 @@ public class BST {
     public boolean isEmpty(){
         return root == null;
     }
+    //display method
+    public void display(){
+        display(root, "Root");
+    } 
 
 
 
