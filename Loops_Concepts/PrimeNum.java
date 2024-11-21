@@ -1,7 +1,7 @@
 //Qs. Print if a number is prime or not (Input n from the user). 
 package Loops_Concepts;
 import java.util.*;
-public class Pblm5 {
+public class PrimeNum {
     public static void main(String[] args) {
         System.out.println("Enter the number:");
         Scanner ip = new Scanner(System.in);

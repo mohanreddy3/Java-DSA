@@ -19,10 +19,10 @@ public class a5 {
         //printing the frequency of each element
         //using some cool HashMap methodology
         //New to Mohan!
-        System.out.println("Frequency of Elements:");
+        System.out.println("Frequency of Elements:");      
         for(HashMap.Entry<Integer,Integer> entry : freqMap.entrySet()){
             System.out.println(entry.getKey() + "|" + entry.getValue());
-        }
+        } 
         //or you can do this too..
         System.out.println(freqMap);
         
