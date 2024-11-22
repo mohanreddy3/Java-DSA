@@ -13,6 +13,7 @@ public class Str1 {
                 arr.add(Character.toString(c));
             }
         }
+        scanner.close();
         return arr;
     }
 
@@ -24,6 +25,8 @@ public class Str1 {
         while (ss.hasNext()) {
             arr.add(ss.next());
         }
+        scanner.close();
+        ss.close();
         return arr;
     }
 
@@ -38,6 +41,7 @@ public class Str1 {
             }
             arr.add(element);
         }
+        scanner.close();
         return arr;
     }
 
