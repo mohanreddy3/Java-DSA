@@ -4,7 +4,7 @@
 package Searching;
 
 public class Bs1 {
-    //method
+    //method(if array is sorted in ASC order)
     private static int ceilingOfNum(int[] arr, int target){
         int start = 0; 
         int end = arr.length -1;
@@ -17,7 +17,7 @@ public class Bs1 {
                 end = mid -1;
             }
             else{
-                return mid;
+                return arr[mid];
             }
         }
         // return start;
