@@ -33,6 +33,23 @@ Total number of tyres in dealerships3 is (1 x 4) + (2 x 2) = 8
 
 package CapgeminiQues;
 
+import java.util.Scanner;
+
 public class C6 {
+    //main
+    public static void main(String[] args) {
+        Scanner ip = new Scanner(System.in);
+        int dealerships = ip.nextInt();
+        int totalTyres = 0;
+        while(dealerships != 0){
+            int cars = ip.nextInt(); 
+            int bikes = ip.nextInt();
+            totalTyres = (cars*4) + (bikes*2);
+            System.out.println("Total Tyres in a Deal are: "+totalTyres);
+            dealerships--;
+        }   
+        ip.close();
+    }
+
     
 }
