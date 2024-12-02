@@ -76,6 +76,7 @@ public class Cp3 {
                 System.out.println(parts[0]); // Print the item name
             }
         }
+        scanner.close();
     }
 }
 

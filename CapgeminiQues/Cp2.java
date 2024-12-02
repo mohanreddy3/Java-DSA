@@ -77,7 +77,7 @@ public class Cp2 {
             //printing results
             System.out.println("Max marks in sem " + (i) + ":" +  maxMark);
         }
-           
+        ip.close();   
     }
     
 }
