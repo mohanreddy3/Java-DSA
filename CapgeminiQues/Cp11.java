@@ -7,9 +7,6 @@ repeating characters.
  Output: 3
  Explanation: The longest substring is "abc" , which has a length of 3
  */
-
-
-
 package CapgeminiQues;
 
 import java.util.HashSet;
