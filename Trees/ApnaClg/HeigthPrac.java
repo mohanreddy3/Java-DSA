@@ -1,5 +1,4 @@
 package Trees.ApnaClg;
-
 public class HeigthPrac {
     // Each Node Data Structure
      static class Node{
@@ -22,9 +21,11 @@ public class HeigthPrac {
         root.left.right = new Node(5);
         root.right.left = new Node(6);
         root.right.right = new Node(7);
+
         //calling method
         System.out.println("Height of Tree is : "+heightOfTree(root));
     }
+    
     //method to find Height of a tree
     private static int heightOfTree(Node root){
         //base case
@@ -35,7 +36,6 @@ public class HeigthPrac {
         int lh = heightOfTree(root.left);
         int rh = heightOfTree(root.right);
         int finalHeight = Math.max(lh,rh)+1;
-
         return finalHeight;
     }
 }
