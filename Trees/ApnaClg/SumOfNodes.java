@@ -12,8 +12,6 @@ public class SumOfNodes {
             this.right = null;
         }
     }
-    //main class
-    public class Btrees{
         //main
         public static void main(String[] args) {
             Node root = new Node(1);
@@ -25,7 +23,6 @@ public class SumOfNodes {
         //calling method
         System.out.println("Sum of Nodes is:"+sumofNodes(root));
         }
-    }
 
     //method
     public static int sumofNodes(Node root){
