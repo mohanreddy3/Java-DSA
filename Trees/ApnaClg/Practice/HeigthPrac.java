@@ -1,4 +1,4 @@
-package Trees.ApnaClg;
+package Trees.ApnaClg.Practice;
 public class HeigthPrac {
     // Each Node Data Structure
      static class Node{
