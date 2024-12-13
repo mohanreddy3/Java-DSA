@@ -1,4 +1,8 @@
 package Trees.ApnaClg;
+
+import java.util.LinkedList;
+import java.util.Queue;
+
 public class BinaryTrees {
 
     //creating Node class
@@ -39,6 +43,38 @@ public class BinaryTrees {
             preOrder(root.left);
             preOrder(root.right);
         }
+        //Level Order Traversal
+        public static void levelOrder(Node root){
+            //base case
+            if(root == null){
+                return;
+            }
+            Queue<Node> q = new LinkedList<>();
+            q.add(root);
+            q.add(null);
+            while(! q.isEmpty()){
+                Node curNode = q.remove();
+                if(curNode == null){
+                    System.out.println();
+                    if(q.isEmpty()){
+                        break;
+                    }
+                    else{
+                        q.add(null);
+                    }
+                }
+                else{
+                    System.out.print(curNode.data + " ");
+                    if(curNode.left != null){
+                        q.add(curNode.left);
+                    }
+                    if(curNode.right != null){
+                        q.add(curNode.right);
+                    }
+                }
+
+            }
+        }
     }
     //main
     public static void main(String[] args) {
@@ -47,5 +83,7 @@ public class BinaryTrees {
         Node root  = tree.buildTree(nodes);
         System.out.println(root.data);
         tree.preOrder(root);
+        System.out.println();
+        tree.levelOrder(root);
     }
 }
