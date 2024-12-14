@@ -1,5 +1,5 @@
 package Trees.ApnaClg.Practice;
-
+// TC : O(n) , SC: O(1)+ recursion Stack Space
 public class LCD {
      //Node Data Structure -> Class
      static class Node{
