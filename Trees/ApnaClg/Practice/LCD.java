@@ -1,4 +1,5 @@
 package Trees.ApnaClg.Practice;
+// Least Common Divisor
 // TC : O(n) , SC: O(1)+ recursion Stack Space
 public class LCD {
      //Node Data Structure -> Class
@@ -39,8 +40,7 @@ public class LCD {
               / \         
              2   3
             / \ / \
-           4  5 6  7
-                
+           4  5 6  7       
          */
        //Main Tree
        Node root = new Node(1);
