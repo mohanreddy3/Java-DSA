@@ -25,7 +25,7 @@ public class KthAncestorofNode {
         int n = 6;
         int k = 2;
         //method call
-       System.out.println( findKthAncestor(root, n, k));
+        findKthAncestor(root, n, k);
 
     }
     //method 1 -> to find kth ancestor of given Node
