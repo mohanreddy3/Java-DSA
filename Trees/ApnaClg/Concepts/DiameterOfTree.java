@@ -1,4 +1,4 @@
-package Trees.ApnaClg;
+package Trees.ApnaClg.Concepts;
 //APPROACH 1 -> O(N^2)
 public class DiameterOfTree {
     static class Node{

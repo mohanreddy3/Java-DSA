@@ -1,4 +1,4 @@
-package Trees.ApnaClg;
+package Trees.ApnaClg.Concepts;
 // TC : O(n) , SC: O(1)+ recursion Stack Space
 public class LeastCommonAncestor {
      //Node Data Structure -> Class

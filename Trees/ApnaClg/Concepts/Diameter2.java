@@ -1,4 +1,4 @@
-package Trees.ApnaClg;
+package Trees.ApnaClg.Concepts;
 //Approach 2 -> O(N)
 public class Diameter2 {
     static class Node{

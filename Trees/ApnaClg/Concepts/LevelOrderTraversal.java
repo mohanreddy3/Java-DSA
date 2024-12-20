@@ -1,6 +1,6 @@
 //Level Order Traversal
 
-package Trees.ApnaClg;
+package Trees.ApnaClg.Concepts;
 
 import java.util.LinkedList;
 import java.util.Queue;

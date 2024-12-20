@@ -1,4 +1,4 @@
-package Trees.ApnaClg;
+package Trees.ApnaClg.Concepts;
 // Print Elements in Kth Level.
 public class KthLevel {
      //Node Data Structure -> Class

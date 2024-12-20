@@ -1,4 +1,4 @@
-package Trees.ApnaClg;
+package Trees.ApnaClg.Concepts;
 
 public class MinDistBtwNodes {
     //Node structure
