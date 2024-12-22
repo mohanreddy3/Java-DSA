@@ -33,8 +33,6 @@ public class Univalued {
         System.out.println(isUnivalued(root));
 
     }
-
-
     //method 1 -> to find whether given tree in Univalued or not
     private static boolean isUnivalued(Node root){
         //no root is considered as Univalued
@@ -44,7 +42,6 @@ public class Univalued {
         return checkUnivalued(root, root.data);
 
     }
-
     //method 2 -> to check for subtrees
     private static boolean checkUnivalued(Node root , int data){
         if(root == null){
