@@ -1,14 +1,17 @@
 package DynamicProgramming.ApnaClg;
 
 public class KanpSackTabulation {
+
     //main
     public static void main(String[] args) {
         int[] val = {15,14,10,45,30};
         int[] wt = {2,5,1,3,4};
         int W = 7;
+        
         //method calling
         System.out.println(knapSackTabulation(val, wt, W));
     }
+
     //method
     private static int knapSackTabulation(int[] val , int[] wt, int W){
         int n = val.length;
