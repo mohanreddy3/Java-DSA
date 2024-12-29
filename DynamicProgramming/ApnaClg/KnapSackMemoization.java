@@ -1,6 +1,7 @@
 package DynamicProgramming.ApnaClg;
 
 public class KnapSackMemoization {
+
     //main
     public static void main(String[] args) {
         int[] val = {15,14,10,45,30};
@@ -14,8 +15,10 @@ public class KnapSackMemoization {
         } 
         System.out.println(knapSackMemoization(val, wt, W , val.length, dp));
     }
+
     //method
     private static int knapSackMemoization(int[] val, int[] wt, int W, int n, int[][] dp){
+       
         //base case
         if(W == 0 || n == 0){
             return 0;
