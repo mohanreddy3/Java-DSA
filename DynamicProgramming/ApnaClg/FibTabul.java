@@ -2,12 +2,14 @@ package DynamicProgramming.ApnaClg;
 
 //Using Tabulation Approach
 public class FibTabul {
-    //mian
+    
+    //main
     public static void main(String[] args) {
         int n = 3;
         System.out.println(fibTabul(n));
 
     }
+
     //method
     public static int fibTabul(int n){
         int[] dp = new int[n+1];
