@@ -5,6 +5,7 @@ package DynamicProgramming.ApnaClg;
 import java.util.Arrays;
 
 public class ClimbimgSteps {
+
     //main
     public static void main(String[] args) {
         int n=5; // 5th step
@@ -14,6 +15,7 @@ public class ClimbimgSteps {
         System.out.println(countWays(n));
 
     }
+
     //method 1 -> (memoization) to calculate no of ways to reach Nth stair (Top Down Approach)
     private static int countSteps(int n , int[] dp){
         if( n == 0){
@@ -30,6 +32,7 @@ public class ClimbimgSteps {
          return dp[n];
 
     }
+    
     //method 2 (Tabulation) -> Bottom Up Approach
     private static int countWays(int n){
         int[] dp = new int[n+1];
