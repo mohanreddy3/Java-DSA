@@ -28,6 +28,7 @@ public class Diameter2 {
     static class Info{
         int diam;
         int ht;
+        
         //constructor
         Info(int diam, int ht){
             this.diam = diam;
