@@ -19,6 +19,7 @@ public class AdjList {
         //no of vertices
         int  V = 5;
         //int[] arr = new int[size]
+        @SuppressWarnings("unchecked")
         ArrayList<Edge>[] graph = new ArrayList[V]; // at every index null is stored
         //create an Empty ArrayList at every index in the Array.
         for(int i=0; i<V; i++){
