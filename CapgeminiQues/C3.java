@@ -24,6 +24,7 @@ import java.util.Scanner;
 
 public class C3 {
     //method
+    @SuppressWarnings("unused")
     private static void spiralOrder(int cols , int rows){
 
     }

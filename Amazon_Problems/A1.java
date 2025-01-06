@@ -12,6 +12,7 @@ public class A1 {
     //method
     private static void sumOfDistinctPair(int n, int[] array, int target){
         HashMap<Integer, Integer> map = new HashMap<>();
+        @SuppressWarnings("unused")
         int count =0;
         for(int i=0; i<n; i++){
             if(map.containsKey(target - array[i]));
@@ -35,6 +36,6 @@ public class A1 {
         int n = array.length;
         int target = 7;
         sumOfDistinctPair(n , array, target);
-
+        ip.close();
     }
 }

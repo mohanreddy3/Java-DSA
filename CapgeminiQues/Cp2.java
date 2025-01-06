@@ -55,6 +55,7 @@ import java.util.Scanner;
 
 public class Cp2 {
     //main
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
         Scanner ip = new Scanner(System.in);
         System.out.println("Enter no of semesters: ");

@@ -34,6 +34,7 @@ package CapgeminiQues;
 import java.util.*;
 
 public class Cp3 {
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
