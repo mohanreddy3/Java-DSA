@@ -3,11 +3,13 @@ package Graphs.Practice;
 import java.util.ArrayList;
 
 public class CreatingGraph {
+
     //Strcture for an Edge
     static class Edge{
         int src; 
         int dest; 
         int wt;
+        
         //Constr
         public Edge(int s, int d, int w){
             this.src = s;
@@ -15,7 +17,6 @@ public class CreatingGraph {
             this.wt = w;
         }
     }
-
     //main
     public static void main(String[] args) {
         //no of vertices
