@@ -21,7 +21,7 @@ public class AdjacentList {
         // no of vertices in the Graph
         int Vrt = 5;
         //create an Array of type List
-        // int[] arr = new int[size]; lly
+        // int[] arr = new int[size]; similarly
         @SuppressWarnings("unchecked") // for clean code
         ArrayList<Edge>[] graph = new ArrayList[Vrt];
         // intially the array contains null -> (not defined)
