@@ -6,6 +6,7 @@ public class H2 {
       Scanner ip = new Scanner(System.in);
       System.out.println("Enter the String: ");
       String str = ip.nextLine();
+
       // pre Computing
       int[] HashArray = new int [26];
         for(int i=0; i<str.length();i++){
@@ -17,6 +18,7 @@ public class H2 {
         System.out.println("Enter the elements:");
         while(q-- !=  0){
             char c = ip.next().charAt(0);
+            
             //fetch
             System.out.println("Frequency is: "+ HashArray[c-'a']);
            
