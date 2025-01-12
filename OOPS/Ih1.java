@@ -1,8 +1,6 @@
 //Single Inheritance
 package OOPS;
-
 //Base class
-
 class Animals1{
     String name;
     String food_type;
@@ -13,7 +11,6 @@ class Animals1{
         System.out.println( this.type + "\n" + this.food_type + "\n" +  this.no_of_legs);
     }
 }
-
 //Derived class
 class Lion extends Animals1{
     //Function
