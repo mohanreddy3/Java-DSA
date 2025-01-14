@@ -9,7 +9,7 @@ public class CreatingGraph {
         int src; 
         int dest; 
         int wt;
-        
+    
         //Constr
         public Edge(int s, int d, int w){
             this.src = s;
@@ -27,6 +27,7 @@ public class CreatingGraph {
         for(int i=0; i<Vrt; i++){
             graph[i] = new ArrayList<>();          
         }
+        
         // vrt 0
         graph[0].add(new Edge(0,1,5));
 
