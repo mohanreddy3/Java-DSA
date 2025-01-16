@@ -1,6 +1,7 @@
 package HashMap;
 
 public class h1 {
+    
     public static void main(String[] args) {
         String name = "mohan";
         String num = "-1";
